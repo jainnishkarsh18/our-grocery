@@ -1,6 +1,12 @@
 /* Style inputs with type="text", select elements and textareas */
 
+body {
+    background-image: url(../images/pexels-artem-beliaikin-2292919.jpg);
+    background-size: cover;
+}
+
 input[type=text],
+input[type=number],
 select,
 textarea {
     width: 100%;
@@ -30,6 +36,7 @@ textarea {
 .container {
     padding: 30px;
     width: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
 }
 
